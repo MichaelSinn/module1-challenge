@@ -10,23 +10,23 @@
 
 <body>
     <header>
-        <h1>Hori<mark>seo</mark>n</h1> <!-- Ask about <mark> tag for this -->
+        <h1>Hori<mark id="seo">seo</mark>n</h1>
         <nav>
-            <ul>
-                <li>
+            <ul class="list">
+                <li class="list-item">
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
-                <li>
+                <li class="list-item">
                     <a href="#online-reputation-management">Online Reputation Management</a>
                 </li>
-                <li>
+                <li class="list-item">
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <figure class="hero"></figure> <!-- Hero image is in background of this, should this be changed? Alt text? -->
+    <figure role="img" aria-label="Board room meeting" class="hero"></figure> <!-- Setting the role to img and adding an aria-label will allow screen readers to process this element as an img -->
 
     <main class="content">
         <article id="search-engine-optimization" class="content-card">
