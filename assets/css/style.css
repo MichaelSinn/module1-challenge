@@ -24,20 +24,20 @@ header {
     color: #ffffff;
 }
 
-h1, footer{
+h1, footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 3em;
 }
 
 nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 a {
@@ -45,25 +45,20 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
+h4 {
+    font-size: 1.25em;
 }
 
 footer {
     padding: 30px;
     clear: both;
     text-align: center;
-    font-size: 20px;
 }
 
 /* || Class CSS selectors */
 
-/* .list {
-    list-style-type: none;
-} */
-
 .list-item {
-    display: inline-block;
+    display: inline-block; /* This line already removes the bullet points from the list element, making the edits to the list-style-type redundant */
     margin-left: 25px;
 }
 
@@ -132,12 +127,12 @@ footer {
 
 .content-card h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 2.25em;
 }
 
 /* || ID selectors */
 
 #seo{
-    background-color: unset;
+    background-color: unset; /* Remove the default yellow background colour in the mark element */
     color: #d9dcd6;
 }
